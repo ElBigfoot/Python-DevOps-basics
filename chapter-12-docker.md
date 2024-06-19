@@ -9,11 +9,9 @@ there are two ways to autoamte a docker using Python
   pros
   cons
          You need absolute control over specific CLI commands not readily available in dockerpy.
-        You have a simple script that only utilizes a few basic Docker commands and doesn't require complex object interaction with the Docker Engine.
-
-### create table 
+        You have a simple script that only utilizes a few basic Docker commands and doesn't require complex object interaction with the Docker Engine. 
   
-2)dockerpy
+2) dockerpy
 
 pros 
 cons  
@@ -59,3 +57,6 @@ Here's a breakdown of the pros and cons between dockerpy and the combination of 
     * You have a simple script that only utilizes a few basic Docker commands and doesn't require complex object interaction with the Docker Engine.
 
 Ultimately, the best choice depends on your specific project requirements and the level of abstraction you need. If you're working with Docker extensively within your Python code, dockerpy is a powerful and reliable option. However, for very basic scripting tasks, the subprocess approach with the docker CLI might suffice.
+
+
+### create table
