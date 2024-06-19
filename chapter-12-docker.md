@@ -1,23 +1,15 @@
 ## Chapter 12
 Docker  
 
-containers share a kernel 
-
-there are two ways to autoamte a docker using Python 
+Containers share a kernel 
+There are two ways to automate Docker using Python 
 
 1) As subprocess library and the use docker CLI (Low Option)
-  pros
-  cons
-         You need absolute control over specific CLI commands not readily available in dockerpy.
-        You have a simple script that only utilizes a few basic Docker commands and doesn't require complex object interaction with the Docker Engine. 
+   * You need absolute control over specific CLI commands not readily available in dockerpy.
+   * You have a simple script that only utilizes a few basic Docker commands and doesn't require complex object interaction with the Docker Engine. 
   
-2) dockerpy
-
-pros 
-cons  
-
+2) dockerpy 
 For most cases, dockerpy is recommended: It simplifies Docker interaction, improves code readability, and provides built-in error handling and type safety.
-
 Here's a breakdown of the pros and cons between dockerpy and the combination of Python subprocess and docker CLI:
 
 **dockerpy (Python library for Docker API):**
