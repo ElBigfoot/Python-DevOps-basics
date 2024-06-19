@@ -5,8 +5,11 @@ Needed to run Anssible smoothly:
 * run SSH commands
 * configure client SSH keys
 * configure host SSH keys
+
 Ansible calculates the commands on the server and sends simple commands as the control machine  
+
 Install Ansible in virtual enviroment:
+
 ```python
 ip install ansible
 ```
