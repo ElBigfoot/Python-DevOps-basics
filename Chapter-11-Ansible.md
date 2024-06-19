@@ -1,8 +1,8 @@
-##Ansible
+## Ansible
 
 11.1 Ansible Basics
 
-Install ansible in virtual enviroment:
+Install Ansible in virtual enviroment:
 ```python
 ip install ansible
 ```
